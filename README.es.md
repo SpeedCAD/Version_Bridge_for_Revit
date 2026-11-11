@@ -70,7 +70,8 @@ descargue instaladores que digan ser oficiales desde otros sitios.
 
 ## Informar un problema
 
-Abra un [issue](https://github.com/SpeedCAD/Version_Bridge_for_Revit/issues) e incluya:
+Abra un [issue](https://github.com/SpeedCAD/Version_Bridge_for_Revit/issues/new/choose) con la plantilla
+**Conversion problem**, que pide:
 
 - la versión de Revit que usó, la versión del archivo y la versión de destino;
 - el tipo de archivo (`.rvt`, `.rfa`, `.rte` o `.rft`);

@@ -1,0 +1,119 @@
+name: Conversion problem
+description: A file that was not converted, or a converted copy that does not open or looks wrong. / Un archivo que no se convirtió, o una copia que no abre o se ve mal.
+title: "[Conversion] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting. You can write in English or Spanish. / Gracias por informar. Puede escribir en inglés o en español.
+
+        **Do not attach confidential models, drawings or client data to this public issue.** If the problem only happens with a model you cannot share publicly, you may send it to **scadtools.software@gmail.com** as a download link, mentioning the issue number. Sending it is optional.
+
+  - type: dropdown
+    id: action
+    attributes:
+      label: What were you doing?
+      options:
+        - Save As an earlier version
+        - Opening a file from a newer version
+    validations:
+      required: true
+
+  - type: dropdown
+    id: revit
+    attributes:
+      label: Revit version used
+      description: The Revit where Version Bridge was running.
+      options:
+        - Revit 2023
+        - Revit 2024
+        - Revit 2025
+        - Revit 2026
+        - Revit 2027
+    validations:
+      required: true
+
+  - type: dropdown
+    id: source
+    attributes:
+      label: Version of the file
+      description: The Revit version the original file was saved in.
+      options:
+        - Revit 2024
+        - Revit 2025
+        - Revit 2026
+        - Revit 2027
+    validations:
+      required: true
+
+  - type: dropdown
+    id: target
+    attributes:
+      label: Target version
+      options:
+        - Revit 2023
+        - Revit 2024
+        - Revit 2025
+        - Revit 2026
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: File type
+      options:
+        - .rvt (project)
+        - .rfa (family)
+        - .rte (project template)
+        - .rft (family template)
+    validations:
+      required: true
+
+  - type: input
+    id: bridge
+    attributes:
+      label: Version Bridge version
+      description: Shown in Windows Settings > Apps > Installed apps.
+      placeholder: "1.0.0.0"
+
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened?
+      description: The message Version Bridge showed, or what is wrong in the converted copy. Screenshots help.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ... in Revit 2025
+        2. Save As > Project, Files of type "Project Files - Revit 2023 (*.rvt)"
+        3. ...
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        When a conversion fails, Version Bridge writes two logs. Drag them here:
+        - `%LOCALAPPDATA%\SCADtools\Version Bridge\versionbridge.log`
+        - `<name>.log.txt`, next to the copy that was not saved.
+        The logs contain file paths and element names: review them before attaching them.
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before submitting
+      options:
+        - label: This issue contains no confidential models, drawings or client data.
+          required: true
