@@ -1,0 +1,92 @@
+VERSION BRIDGE FOR REVIT
+END USER LICENSE AGREEMENT
+
+Last updated: November 10, 2026
+
+This End User License Agreement (the "Agreement") is a legal agreement between you, either an individual or a legal entity ("you"), and Mauricio Jorquera, doing business as SCADtools Software ("SCADtools", "we" or "us"), for Version Bridge for Revit, including its installer, add-in, conversion engine (SCADtools.Bim), documentation and any updates we provide (together, the "Software").
+
+By installing, copying or using the Software, you agree to this Agreement. If you do not agree, do not install or use the Software. If you accept this Agreement on behalf of an organization, you confirm that you are authorized to bind it.
+
+1. LICENSE GRANT
+
+1.1. Subject to this Agreement, SCADtools grants you a free of charge, non-exclusive, non-transferable, non-sublicensable, revocable license to install and use the Software for any lawful purpose, including commercial projects and professional services.
+
+1.2. An organization may install the Software on any number of its own computers and make it available to its employees and contractors who work on its behalf, provided that the official installer is used without modification.
+
+1.3. No fee is charged for this license. SCADtools may offer future versions under different terms; those terms will apply only to the versions they accompany.
+
+2. RESTRICTIONS
+
+Except as expressly permitted by this Agreement, or to the extent applicable law expressly permits it despite this restriction, you may not:
+
+a) sell, rent, lease, lend or otherwise commercialize the Software;
+b) distribute, publish or make the Software or its installer available to third parties, including through websites, file-sharing services or software repositories. You may share the link to the official download page;
+c) modify, translate, adapt or create derivative works of the Software;
+d) decompile, disassemble or reverse engineer the Software, or attempt to derive its source code, file format knowledge or algorithms;
+e) extract, use or call the conversion engine (SCADtools.Bim) or any other component separately from the Software, or integrate it into other software or services;
+f) use the Software to provide a file conversion service to third parties, whether online or not;
+g) remove or alter any copyright, trademark or other notices in the Software.
+
+3. OWNERSHIP
+
+The Software is licensed, not sold. SCADtools and its licensors retain all rights, title and interest in the Software, including all intellectual property rights. This Agreement grants no rights other than those expressly stated. Licensing of the conversion technology for other uses requires a separate written agreement with SCADtools.
+
+4. AUTODESK REVIT AND THIRD-PARTY SOFTWARE
+
+4.1. The Software is an add-in for Autodesk Revit. You must hold a valid license for each version of Autodesk Revit you use. This Agreement grants no rights to Autodesk Revit or any other third-party software.
+
+4.2. The Software is an independent product. It is not affiliated with, endorsed by or sponsored by Autodesk, Inc. Autodesk and Revit are registered trademarks of Autodesk, Inc. All other trademarks belong to their respective owners.
+
+5. YOUR FILES AND PRIVACY
+
+5.1. The Software converts files locally on your computer. It does not upload your files and does not send data to SCADtools or to any third party.
+
+5.2. When a conversion fails, the Software writes logs on your computer. The logs may contain file paths, element names, and the versions of Revit, Windows and the Software. The logs remain on your computer and are sent to SCADtools only if you choose to send them.
+
+5.3. If you choose to send logs or files to SCADtools to report a problem, you confirm that you have the right to do so. SCADtools will use them only to reproduce and fix the problem, will not share them with third parties, and will delete the files once the problem is closed. Do not send files that you are not authorized to share.
+
+5.4. You are solely responsible for your files, including keeping the originals and backups. The Software writes converted copies and does not modify the original file.
+
+6. CONVERSION RESULTS
+
+Each Revit version adds features that earlier versions do not support. A converted file may therefore omit, remove or alter data, and the Software may decline to convert some files. You are responsible for reviewing every converted file before relying on it, including its geometry, elements, families, parameters, schedules, annotations and sheets. The Software is not a substitute for professional review of any project documentation.
+
+7. PRE-RELEASE VERSIONS
+
+Versions identified as pre-release, beta or test versions may contain errors, may be incomplete, and may stop working or be withdrawn at any time.
+
+8. UPDATES AND SUPPORT
+
+SCADtools has no obligation to provide updates, support or maintenance. Any updates we provide are part of the Software and subject to this Agreement, unless they come with different terms.
+
+9. NO WARRANTY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, COMPLETENESS OF CONVERSION, COMPATIBILITY OR NON-INFRINGEMENT. SCADTOOLS DOES NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE OR UNINTERRUPTED, OR THAT CONVERTED FILES WILL OPEN OR BEHAVE AS EXPECTED IN ANY VERSION OF AUTODESK REVIT.
+
+10. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL SCADTOOLS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF DATA, LOSS OF PROFITS, LOSS OF BUSINESS, PROJECT DELAYS, CONSTRUCTION ERRORS OR COSTS OF REWORK, ARISING OUT OF OR RELATED TO THE SOFTWARE OR ANY CONVERTED FILE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. BECAUSE THE SOFTWARE IS PROVIDED FREE OF CHARGE, THE TOTAL LIABILITY OF SCADTOOLS UNDER THIS AGREEMENT WILL NOT EXCEED ONE HUNDRED UNITED STATES DOLLARS (USD 100). Some jurisdictions do not allow certain exclusions or limitations; in that case, they apply only to the extent permitted.
+
+11. TERMINATION
+
+This Agreement is effective until terminated. It terminates automatically if you fail to comply with any of its terms. You may terminate it at any time by uninstalling the Software. On termination, you must stop using and uninstall the Software. Sections 3, 4.2, 5.3, 5.4 and 6 to 13 survive termination.
+
+12. CHANGES TO THIS AGREEMENT
+
+SCADtools may change this Agreement for future versions of the Software. The terms accepted when installing a version apply to that version.
+
+13. GENERAL
+
+13.1. This Agreement is governed by the laws of the Republic of Chile. Any dispute arising from it will be submitted to the ordinary courts of Santiago, Chile, without prejudice to any mandatory consumer protection rights you may have where you reside.
+
+13.2. If any provision of this Agreement is held invalid or unenforceable, the remaining provisions remain in full force and effect.
+
+13.3. This Agreement is the entire agreement between you and SCADtools regarding the Software and supersedes any prior understanding. A failure to enforce any provision is not a waiver of it.
+
+13.4. This Agreement is available in English and Spanish. In case of any discrepancy, the English version prevails.
+
+14. CONTACT
+
+SCADtools Software
+scadtools.software@gmail.com
+https://github.com/SpeedCAD
