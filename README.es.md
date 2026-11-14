@@ -25,7 +25,7 @@ convierte en geometría importada.
   original.
 - **Proyectos, familias y plantillas:** `.rvt`, `.rfa`, `.rte` y `.rft`. Las plantillas de familia (`.rft`) se ofrecen
   junto a `.rfa` en Guardar como > Familia.
-- **Sin pérdidas silenciosas.** Cada conversión se comprueba antes de escribir nada. Si el archivo tiene datos que se
+- **Sin pérdidas silenciosas.** Cada conversión se comprueba antes de escribir. Si el archivo tiene datos que se
   perderían y cuya eliminación no se ha validado, la copia **no se guarda** y Version Bridge explica el motivo.
 - **Local.** Los archivos se convierten en su computador. No se sube nada.
 
