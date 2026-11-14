@@ -3,8 +3,9 @@
 **Guarde archivos de Revit en versiones anteriores y abra archivos de versiones posteriores, desde Abrir y Guardar
 como de Revit.**
 
-> **Versión preliminar:** Version Bridge está en pruebas y el instalador aún no se publica. Este repositorio contiene
-> la documentación y el registro de issues. Sígalo para enterarse de la primera versión.
+> **Versión preliminar:** Version Bridge está en pruebas. Conserve sus archivos originales, revise cada copia
+> convertida e [informe cualquier problema](#informar-un-problema). Siga este repositorio para enterarse de las nuevas
+> versiones.
 
 Version Bridge es un complemento gratuito para Autodesk Revit en Windows. Agrega las versiones anteriores al cuadro
 **Guardar como** y, cuando abre un archivo guardado por un Revit más nuevo, ofrece convertir una copia a su versión.
@@ -65,9 +66,53 @@ alojados, familias, parámetros, tablas, anotaciones y planos.
 
 ## Descarga e instalación
 
-**Aún no está disponible.** El instalador se publicará en
-[GitHub Releases](https://github.com/SpeedCAD/Version_Bridge_for_Revit/releases), con los pasos de instalación. No
-descargue instaladores que digan ser oficiales desde otros sitios.
+Descargue el instalador solo desde
+[GitHub Releases](https://github.com/SpeedCAD/Version_Bridge_for_Revit/releases): abra la última versión y, en
+**Assets**, descargue el archivo `.exe`. No descargue instaladores que digan ser oficiales desde otros sitios.
+
+### Instalar
+
+1. Cierre Revit.
+2. Ejecute el instalador. No necesita permisos de administrador: instala solo para su usuario de Windows.
+3. Acepte el contrato de licencia.
+4. Elija las versiones de Revit. Aparecen marcadas todas las versiones de Revit 2023 a 2027 instaladas en el equipo.
+5. Abra Revit. La primera vez que carga Version Bridge, Revit puede preguntar si carga un complemento sin firmar.
+   Elija **Cargar siempre** (*Always Load*).
+
+El complemento se instala en `%AppData%\Autodesk\Revit\Addins\<año>`: el archivo `sc_versionbridge.addin` y la
+carpeta `SCADtools.VersionBridge`.
+
+### Aviso de SmartScreen de Windows
+
+El instalador todavía no tiene firma digital, así que Windows no conoce a su editor. El navegador puede decir que el
+archivo "no se descarga habitualmente" y, al ejecutarlo, Windows puede mostrar **Windows protegió su PC** con
+**Editor desconocido**:
+
+- En el navegador (Edge), elija **Conservar** en el menú de la descarga (**...**) y luego **Mostrar más** >
+  **Conservar de todos modos**.
+- En la ventana de SmartScreen, elija **Más información**, compruebe que la aplicación es *Version Bridge for Revit*
+  y elija **Ejecutar de todas formas**.
+
+Hágalo solo con el instalador descargado de la página Releases de este repositorio. Para comprobar que el archivo es
+el que publicamos, compare su hash SHA-256 con el que aparece en las notas de la versión. En PowerShell:
+
+```powershell
+Get-FileHash "$env:USERPROFILE\Downloads\<archivo del instalador>.exe" -Algorithm SHA256
+```
+
+### Actualizar
+
+Cierre Revit y ejecute el instalador de la nueva versión. Reemplaza a la anterior; no hace falta desinstalarla antes.
+
+### Desinstalar
+
+1. Cierre Revit.
+2. Abra **Configuración** > **Aplicaciones** > **Aplicaciones instaladas** (en Windows 10: **Aplicaciones y
+   características**).
+3. Busque **Version Bridge for Revit**, elija **...** > **Desinstalar** y confirme.
+
+Así se quita el complemento de todas las versiones de Revit donde se instaló. Las copias convertidas que guardó y los
+registros de `%LOCALAPPDATA%\SCADtools\Version Bridge` no se borran; puede eliminar esa carpeta a mano.
 
 ## Informar un problema
 

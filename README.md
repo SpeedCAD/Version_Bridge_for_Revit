@@ -2,8 +2,8 @@
 
 **Save Revit files to earlier versions, and open files from newer versions, from Revit's own Open and Save As.**
 
-> **Pre-release:** Version Bridge is being tested and the installer has not been published yet. This repository
-> holds the documentation and the issue tracker. Watch it to be notified of the first release.
+> **Pre-release:** Version Bridge is being tested. Keep your original files and check every converted copy, and
+> please [report any problem](#reporting-a-problem). Watch this repository to be notified of new releases.
 
 Version Bridge is a free add-in for Autodesk Revit on Windows. It adds earlier versions to Revit's **Save As** dialog
 and, when you open a file saved by a newer Revit, offers to convert a copy to your version. Elements stay native and
@@ -60,9 +60,52 @@ families, parameters, schedules, annotations and sheets.
 
 ## Download and installation
 
-**Not available yet.** The installer will be published on
-[GitHub Releases](https://github.com/SpeedCAD/Version_Bridge_for_Revit/releases), with installation steps. Do not
-download installers that claim to be official from any other source.
+Download the installer only from [GitHub Releases](https://github.com/SpeedCAD/Version_Bridge_for_Revit/releases):
+open the latest release and, under **Assets**, download the `.exe` file. Do not download installers that claim to
+be official from any other source.
+
+### Install
+
+1. Close Revit.
+2. Run the installer. It does not need administrator rights: it installs for your Windows user only.
+3. Accept the license agreement.
+4. Choose the Revit versions. Every Revit 2023–2027 installed on the computer is listed and checked.
+5. Start Revit. The first time Version Bridge loads, Revit may ask whether to load an add-in that is not signed.
+   Choose **Always Load**.
+
+The add-in is installed in `%AppData%\Autodesk\Revit\Addins\<year>`: the `sc_versionbridge.addin` file and the
+`SCADtools.VersionBridge` folder.
+
+### Windows SmartScreen warning
+
+The installer is not yet code-signed, so Windows does not know its publisher. Your browser may say that the file
+"isn't commonly downloaded", and when you run it Windows may show **Windows protected your PC** with
+**Unknown publisher**:
+
+- In the browser (Edge), choose **Keep** in the download menu (**...**), then **Show more** > **Keep anyway**.
+- In the SmartScreen window, choose **More info**, check that the app is *Version Bridge for Revit*, and choose
+  **Run anyway**.
+
+Do this only with the installer downloaded from this repository's Releases page. To check that the file is the one
+we published, compare its SHA-256 hash with the one in the release notes. In PowerShell:
+
+```powershell
+Get-FileHash "$env:USERPROFILE\Downloads\<installer file>.exe" -Algorithm SHA256
+```
+
+### Update
+
+Close Revit and run the installer of the new version. It replaces the previous one; there is no need to uninstall
+it first.
+
+### Uninstall
+
+1. Close Revit.
+2. Open **Settings** > **Apps** > **Installed apps** (in Windows 10: **Apps & features**).
+3. Find **Version Bridge for Revit**, choose **...** > **Uninstall**, and confirm.
+
+This removes the add-in from every Revit version where it was installed. The converted copies you saved and the logs
+in `%LOCALAPPDATA%\SCADtools\Version Bridge` are not deleted; you can delete that folder by hand.
 
 ## Reporting a problem
 
