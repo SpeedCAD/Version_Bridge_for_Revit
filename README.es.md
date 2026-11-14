@@ -54,8 +54,9 @@ Revit 2023 es la versión de destino más antigua: en Revit 2023, Version Bridge
 
 Cada versión de Revit agrega funciones que las anteriores no tienen. Al convertir a una versión anterior:
 
-- Se eliminan los datos que la versión de destino no puede contener. Lo eliminado se informa al terminar cada
-  conversión.
+- Se eliminan los datos que la versión de destino no puede contener. Cuando la copia se guarda, Version Bridge
+  muestra solo dónde quedó. Lo eliminado se informa solo cuando la copia no se guarda, en su registro (vea
+  [Informar un problema](#informar-un-problema)).
 - Algunas funciones no se pueden convertir, por ejemplo los toposólidos al guardar en Revit 2023. En ese caso la copia
   no se guarda.
 

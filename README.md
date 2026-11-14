@@ -49,7 +49,9 @@ Revit 2023 is the earliest target, so in Revit 2023 Version Bridge only opens ne
 
 Each Revit release adds features that earlier releases do not have. When converting to an earlier version:
 
-- Data that the target version cannot hold is removed. The removals are reported after each conversion.
+- Data that the target version cannot hold is removed. When the copy is saved, Version Bridge shows only where it
+  was saved. The removals are reported only when the copy is not saved, in its log (see
+  [Reporting a problem](#reporting-a-problem)).
 - Some features cannot be converted at all, for example toposolids when saving to Revit 2023. In that case the
   copy is not saved.
 
