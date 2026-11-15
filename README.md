@@ -5,7 +5,7 @@
 > **Pre-release:** Version Bridge is being tested. Keep your original files and check every converted copy, and
 > please [report any problem](#reporting-a-problem). Watch this repository to be notified of new releases.
 
-Version Bridge is a free add-in for Autodesk Revit on Windows. It adds earlier versions to Revit's **Save As** dialog
+Version Bridge is an add-in for Autodesk Revit on Windows. It adds earlier versions to Revit's **Save As** dialog
 and, when you open a file saved by a newer Revit, offers to convert a copy to your version. Elements stay native and
 editable: walls stay walls, families stay families. Nothing is turned into imported geometry.
 
@@ -23,7 +23,7 @@ editable: walls stay walls, families stay families. Nothing is turned into impor
   next to `.rfa` in Save As > Family.
 - **No silent losses.** Each conversion is checked before anything is written. If the file contains data that would
   be dropped and has not been validated as safe to drop, the copy **is not saved**, and Version Bridge tells you why.
-- **Local.** Files are converted on your computer. Nothing is uploaded.
+- **Local.** Models are converted on your computer and are never uploaded.
 
 ## Supported versions
 
@@ -37,6 +37,14 @@ Version Bridge runs in **Revit 2023, 2024, 2025, 2026 and 2027** on 64-bit Windo
 | Revit 2024 | 2023 |
 
 Revit 2023 is the earliest target, so in Revit 2023 Version Bridge only opens newer files.
+
+## 60-day trial
+
+This pre-release works for **60 days on each computer**, counted from the first time Version Bridge is used on it.
+It needs an internet connection the first time, and then at least once a week. Seven days before the trial ends,
+Version Bridge shows a notice with the date. When the trial ends, Save As is Revit's own again and newer files are
+refused as usual. New versions are published on the [Releases](https://github.com/SpeedCAD/Version_Bridge_for_Revit/releases)
+page.
 
 ## Not supported
 
@@ -130,7 +138,7 @@ the problem, is not shared with anyone, and is deleted once the issue is closed.
 
 ## License
 
-Version Bridge is **free to use** but **not open source**. The add-in and its conversion engine, SCADtools.Bim, are
+Version Bridge is **free to use** during its trial but **not open source**. The add-in and its conversion engine, SCADtools.Bim, are
 proprietary. See [LICENSE](LICENSE) for the terms of use and distribution.
 
 For licensing the conversion technology or integrating it in other products, contact SCADtools at

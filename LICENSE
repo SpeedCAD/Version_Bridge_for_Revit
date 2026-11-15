@@ -15,6 +15,8 @@ By installing, copying or using the Software, you agree to this Agreement. If yo
 
 1.3. No fee is charged for this license. SCADtools may offer future versions under different terms; those terms will apply only to the versions they accompany.
 
+1.4. Each computer may use this version for a trial period of 60 days from its first activation, which may end earlier on a date set by SCADtools.
+
 2. RESTRICTIONS
 
 Except as expressly permitted by this Agreement, or to the extent applicable law expressly permits it despite this restriction, you may not:
@@ -39,7 +41,7 @@ The Software is licensed, not sold. SCADtools and its licensors retain all right
 
 5. YOUR FILES AND PRIVACY
 
-5.1. The Software converts files locally on your computer. It does not upload your files and does not send data to SCADtools or to any third party.
+5.1. The Software converts files locally on your computer and never uploads them.
 
 5.2. When a conversion fails, the Software writes logs on your computer. The logs may contain file paths, element names, and the versions of Revit, Windows and the Software. The logs remain on your computer and are sent to SCADtools only if you choose to send them.
 

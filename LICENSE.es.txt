@@ -17,6 +17,8 @@ Al instalar, copiar o usar el Software, usted acepta este Contrato. Si no lo ace
 
 1.3. Esta licencia no tiene costo. SCADtools puede ofrecer versiones futuras con otros términos; esos términos se aplicarán solo a las versiones que acompañen.
 
+1.4. Cada equipo puede usar esta versión durante un período de prueba de 60 días desde su primera activación, que puede terminar antes en una fecha que fije SCADtools.
+
 2. RESTRICCIONES
 
 Salvo lo que este Contrato permite expresamente, o en la medida en que la ley aplicable lo permita expresamente pese a esta restricción, usted no puede:
@@ -41,7 +43,7 @@ El Software se licencia, no se vende. SCADtools y sus licenciantes conservan tod
 
 5. SUS ARCHIVOS Y PRIVACIDAD
 
-5.1. El Software convierte los archivos localmente en su equipo. No sube sus archivos ni envía datos a SCADtools ni a terceros.
+5.1. El Software convierte los archivos localmente en su equipo y nunca los sube.
 
 5.2. Cuando una conversión falla, el Software escribe registros en su equipo. Los registros pueden contener rutas de archivos, nombres de elementos y las versiones de Revit, Windows y el Software. Quedan en su equipo y solo llegan a SCADtools si usted decide enviarlos.
 

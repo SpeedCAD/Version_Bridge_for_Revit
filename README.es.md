@@ -7,7 +7,7 @@ como de Revit.**
 > convertida e [informe cualquier problema](#informar-un-problema). Siga este repositorio para enterarse de las nuevas
 > versiones.
 
-Version Bridge es un complemento gratuito para Autodesk Revit en Windows. Agrega las versiones anteriores al cuadro
+Version Bridge es un complemento para Autodesk Revit en Windows. Agrega las versiones anteriores al cuadro
 **Guardar como** y, cuando abre un archivo guardado por un Revit más nuevo, ofrece convertir una copia a su versión.
 Los elementos siguen siendo nativos y editables: los muros siguen siendo muros y las familias, familias. Nada se
 convierte en geometría importada.
@@ -28,7 +28,7 @@ convierte en geometría importada.
   junto a `.rfa` en Guardar como > Familia.
 - **Sin pérdidas silenciosas.** Cada conversión se comprueba antes de escribir. Si el archivo tiene datos que se
   perderían y cuya eliminación no se ha validado, la copia **no se guarda** y Version Bridge explica el motivo.
-- **Local.** Los archivos se convierten en su computador. No se sube nada.
+- **Local.** Los modelos se convierten en su computador y nunca se suben.
 
 ## Versiones compatibles
 
@@ -42,6 +42,14 @@ Version Bridge funciona en **Revit 2023, 2024, 2025, 2026 y 2027** sobre Windows
 | Revit 2024 | 2023 |
 
 Revit 2023 es la versión de destino más antigua: en Revit 2023, Version Bridge solo abre archivos más nuevos.
+
+## Prueba de 60 días
+
+Esta versión preliminar funciona **60 días en cada computador**, contados desde la primera vez que se usa Version
+Bridge en él. Necesita conexión a internet la primera vez y luego al menos una vez por semana. Siete días antes de que
+termine la prueba, Version Bridge muestra un aviso con la fecha. Cuando termina, Guardar como vuelve a ser el de
+Revit y los archivos más nuevos se rechazan como siempre. Las versiones nuevas se publican en la página
+[Releases](https://github.com/SpeedCAD/Version_Bridge_for_Revit/releases).
 
 ## No compatible
 
@@ -137,7 +145,7 @@ reproducir el problema, no se comparte con nadie y se elimina cuando el issue se
 
 ## Licencia
 
-Version Bridge es **de uso gratuito**, pero **no es de código abierto**. El complemento y su motor de conversión,
+Version Bridge es **de uso gratuito** durante su prueba, pero **no es de código abierto**. El complemento y su motor de conversión,
 SCADtools.Bim, son propietarios. Los términos de uso y distribución están en [LICENSE](LICENSE) (inglés, la versión que prevalece) y en
 [LICENSE.es.txt](LICENSE.es.txt) (traducción).
 
