@@ -41,10 +41,9 @@ Revit 2023 is the earliest target, so in Revit 2023 Version Bridge only opens ne
 ## 60-day trial
 
 This pre-release works for **60 days on each computer**, counted from the first time Version Bridge is used on it.
-It needs an internet connection the first time, and then at least once a week. Seven days before the trial ends,
-Version Bridge shows a notice with the date. When the trial ends, Save As is Revit's own again and newer files are
-refused as usual. New versions are published on the [Releases](https://github.com/SpeedCAD/Version_Bridge_for_Revit/releases)
-page.
+Seven days before the trial ends, Version Bridge shows a notice with the date. When the trial ends, Save As is Revit's
+own again and newer files are refused as usual. New versions are published on the
+[Releases](https://github.com/SpeedCAD/Version_Bridge_for_Revit/releases) page.
 
 ## Not supported
 

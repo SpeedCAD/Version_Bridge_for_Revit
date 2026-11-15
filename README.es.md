@@ -46,10 +46,9 @@ Revit 2023 es la versión de destino más antigua: en Revit 2023, Version Bridge
 ## Prueba de 60 días
 
 Esta versión preliminar funciona **60 días en cada computador**, contados desde la primera vez que se usa Version
-Bridge en él. Necesita conexión a internet la primera vez y luego al menos una vez por semana. Siete días antes de que
-termine la prueba, Version Bridge muestra un aviso con la fecha. Cuando termina, Guardar como vuelve a ser el de
-Revit y los archivos más nuevos se rechazan como siempre. Las versiones nuevas se publican en la página
-[Releases](https://github.com/SpeedCAD/Version_Bridge_for_Revit/releases).
+Bridge en él. Siete días antes de que termine la prueba, Version Bridge muestra un aviso con la fecha. Cuando termina,
+Guardar como vuelve a ser el de Revit y los archivos más nuevos se rechazan como siempre. Las versiones nuevas se
+publican en la página [Releases](https://github.com/SpeedCAD/Version_Bridge_for_Revit/releases).
 
 ## No compatible
 
