@@ -140,8 +140,8 @@ the problem, is not shared with anyone, and is deleted once the issue is closed.
 Version Bridge is **free to use** during its trial but **not open source**. The add-in and its conversion engine are
 proprietary. See [LICENSE](LICENSE) for the terms of use and distribution.
 
-For licensing the conversion technology or integrating it in other products, contact SCADtools at
-**scadtools.software@gmail.com**.
+For licensing the conversion technology or integrating it in other products, without requiring Revit to be
+installed, contact SCADtools at **scadtools.software@gmail.com**.
 
 ## Disclaimer
 
