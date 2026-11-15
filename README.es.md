@@ -145,8 +145,8 @@ reproducir el problema, no se comparte con nadie y se elimina cuando el issue se
 
 ## Licencia
 
-Version Bridge es **de uso gratuito** durante su prueba, pero **no es de código abierto**. El complemento y su motor de conversión,
-SCADtools.Bim, son propietarios. Los términos de uso y distribución están en [LICENSE](LICENSE) (inglés, la versión que prevalece) y en
+Version Bridge es **de uso gratuito** durante su prueba, pero **no es de código abierto**. El complemento y su motor de
+conversión son propietarios. Los términos de uso y distribución están en [LICENSE](LICENSE) (inglés, la versión que prevalece) y en
 [LICENSE.es.txt](LICENSE.es.txt) (traducción).
 
 Para licenciar la tecnología de conversión o integrarla en otros productos, escriba a SCADtools a

@@ -5,7 +5,7 @@ CONTRATO DE LICENCIA DE USUARIO FINAL
 
 Esta es una traducción informativa. En caso de discrepancia, prevalece la versión en inglés (sección 13.4).
 
-Este Contrato de Licencia de Usuario Final (el "Contrato") es un acuerdo legal entre usted, sea persona natural o jurídica ("usted"), y Mauricio Jorquera, que opera como SCADtools Software ("SCADtools" o "nosotros"), sobre Version Bridge for Revit, incluidos su instalador, complemento, motor de conversión (SCADtools.Bim), documentación y las actualizaciones que entreguemos (en conjunto, el "Software").
+Este Contrato de Licencia de Usuario Final (el "Contrato") es un acuerdo legal entre usted, sea persona natural o jurídica ("usted"), y Mauricio Jorquera, que opera como SCADtools Software ("SCADtools" o "nosotros"), sobre Version Bridge for Revit, incluidos su instalador, complemento, motor de conversión, documentación y las actualizaciones que entreguemos (en conjunto, el "Software").
 
 Al instalar, copiar o usar el Software, usted acepta este Contrato. Si no lo acepta, no instale ni use el Software. Si acepta este Contrato en nombre de una organización, declara estar facultado para obligarla.
 
@@ -27,7 +27,7 @@ a) vender, arrendar, prestar ni comercializar de otra forma el Software;
 b) distribuir, publicar ni poner el Software o su instalador a disposición de terceros, incluso mediante sitios web, servicios para compartir archivos o repositorios de software. Puede compartir el enlace a la página oficial de descarga;
 c) modificar, traducir, adaptar ni crear obras derivadas del Software;
 d) descompilar, desensamblar ni aplicar ingeniería inversa al Software, ni intentar obtener su código fuente, su conocimiento de formatos de archivo o sus algoritmos;
-e) extraer, usar ni invocar el motor de conversión (SCADtools.Bim) ni ningún otro componente por separado del Software, ni integrarlo en otro software o servicio;
+e) extraer, usar ni invocar el motor de conversión ni ningún otro componente por separado del Software, ni integrarlo en otro software o servicio;
 f) usar el Software para prestar a terceros un servicio de conversión de archivos, en línea o no;
 g) quitar ni alterar los avisos de derechos de autor, marcas u otros avisos del Software.
 
