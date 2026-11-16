@@ -13,6 +13,8 @@ editable: walls stay walls, families stay families. Nothing is turned into impor
 
 ![Revit's Save As dialog with Version Bridge: the Files of type list offers Project Files - Revit 2026, 2025, 2024 and 2023](docs/images/save-as-dialog.png)
 
+*Screenshot from Revit 2027*
+
 ## What it does
 
 - **Save As an earlier version.** In Save As, the **Files of type** list shows one entry per earlier version, for

@@ -16,6 +16,8 @@ convierte en geometría importada.
 
 ![Cuadro Guardar como de Revit con Version Bridge: la lista Tipo de archivo ofrece Project Files - Revit 2026, 2025, 2024 y 2023](docs/images/save-as-dialog.png)
 
+*Captura de Revit 2027*
+
 ## Qué hace
 
 - **Guardar como en una versión anterior.** En Guardar como, la lista **Tipo de archivo** muestra una entrada por
